@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+  <h1 style="text-align:left">{{ page.title }}</h1>
 
   <div class="entry">
     {{ content }}
@@ -12,6 +12,6 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-
+  {% include mailchimp_post.html %}
   {% include disqus.html %}
 </article>
