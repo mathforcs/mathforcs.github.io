@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This is a computer science and mathematics blog. If there's something you'd like us to make a video about or write a blogpost about, please let us know. We would also appreciate feedback on our existing content! 
 
-### More Information
+### Contact 
 
-A place to include any other types of information that you'd like to include about yourself.
+[math4computerscience@gmail.com](math4computerscience@gmail.com)
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+{% include mailchimp_post.html %}
