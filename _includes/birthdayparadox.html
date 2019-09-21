@@ -1,0 +1,498 @@
+<html>
+<body>
+<style>
+#demo{
+  transition-duration: 5s;
+}
+.day{
+	background-color: #FFA726;
+	border: solid 0px;
+  	border-radius: 10%;
+  	font-size: 150%;
+    text-align: center;
+}
+table {
+  table-layout: fixed ;
+  width: 100% ;
+}
+td {
+  width: 25% ;
+}
+
+</style>
+
+<table id = "cal" >
+  
+  <tr>
+<td class = "month"> Jan </td>
+<td class = "day" id ="Jan1"> 1 </td>
+<td class = "day" id ="Jan2"> 2 </td>
+<td class = "day" id ="Jan3"> 3 </td>
+<td class = "day" id ="Jan4"> 4 </td>
+<td class = "day" id ="Jan5"> 5 </td>
+<td class = "day" id ="Jan6"> 6 </td>
+<td class = "day" id ="Jan7"> 7 </td>
+<td class = "day" id ="Jan8"> 8 </td>
+<td class = "day" id ="Jan9"> 9 </td>
+<td class = "day" id ="Jan10"> 10 </td>
+<td class = "day" id ="Jan11"> 11 </td>
+<td class = "day" id ="Jan12"> 12 </td>
+<td class = "day" id ="Jan13"> 13 </td>
+<td class = "day" id ="Jan14"> 14 </td>
+<td class = "day" id ="Jan15"> 15 </td>
+<td class = "day" id ="Jan16"> 16 </td>
+<td class = "day" id ="Jan17"> 17 </td>
+<td class = "day" id ="Jan18"> 18 </td>
+<td class = "day" id ="Jan19"> 19 </td>
+<td class = "day" id ="Jan20"> 20 </td>
+<td class = "day" id ="Jan21"> 21 </td>
+<td class = "day" id ="Jan22"> 22 </td>
+<td class = "day" id ="Jan23"> 23 </td>
+<td class = "day" id ="Jan24"> 24 </td>
+<td class = "day" id ="Jan25"> 25 </td>
+<td class = "day" id ="Jan26"> 26 </td>
+<td class = "day" id ="Jan27"> 27 </td>
+<td class = "day" id ="Jan28"> 28 </td>
+<td class = "day" id ="Jan29"> 29 </td>
+<td class = "day" id ="Jan30"> 30 </td>
+<td class = "day" id ="Jan31"> 31 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Feb </td>
+<td class = "day" id ="Feb1"> 1 </td>
+<td class = "day" id ="Feb2"> 2 </td>
+<td class = "day" id ="Feb3"> 3 </td>
+<td class = "day" id ="Feb4"> 4 </td>
+<td class = "day" id ="Feb5"> 5 </td>
+<td class = "day" id ="Feb6"> 6 </td>
+<td class = "day" id ="Feb7"> 7 </td>
+<td class = "day" id ="Feb8"> 8 </td>
+<td class = "day" id ="Feb9"> 9 </td>
+<td class = "day" id ="Feb10"> 10 </td>
+<td class = "day" id ="Feb11"> 11 </td>
+<td class = "day" id ="Feb12"> 12 </td>
+<td class = "day" id ="Feb13"> 13 </td>
+<td class = "day" id ="Feb14"> 14 </td>
+<td class = "day" id ="Feb15"> 15 </td>
+<td class = "day" id ="Feb16"> 16 </td>
+<td class = "day" id ="Feb17"> 17 </td>
+<td class = "day" id ="Feb18"> 18 </td>
+<td class = "day" id ="Feb19"> 19 </td>
+<td class = "day" id ="Feb20"> 20 </td>
+<td class = "day" id ="Feb21"> 21 </td>
+<td class = "day" id ="Feb22"> 22 </td>
+<td class = "day" id ="Feb23"> 23 </td>
+<td class = "day" id ="Feb24"> 24 </td>
+<td class = "day" id ="Feb25"> 25 </td>
+<td class = "day" id ="Feb26"> 26 </td>
+<td class = "day" id ="Feb27"> 27 </td>
+<td class = "day" id ="Feb28"> 28 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Mar </td>
+<td class = "day" id ="Mar1"> 1 </td>
+<td class = "day" id ="Mar2"> 2 </td>
+<td class = "day" id ="Mar3"> 3 </td>
+<td class = "day" id ="Mar4"> 4 </td>
+<td class = "day" id ="Mar5"> 5 </td>
+<td class = "day" id ="Mar6"> 6 </td>
+<td class = "day" id ="Mar7"> 7 </td>
+<td class = "day" id ="Mar8"> 8 </td>
+<td class = "day" id ="Mar9"> 9 </td>
+<td class = "day" id ="Mar10"> 10 </td>
+<td class = "day" id ="Mar11"> 11 </td>
+<td class = "day" id ="Mar12"> 12 </td>
+<td class = "day" id ="Mar13"> 13 </td>
+<td class = "day" id ="Mar14"> 14 </td>
+<td class = "day" id ="Mar15"> 15 </td>
+<td class = "day" id ="Mar16"> 16 </td>
+<td class = "day" id ="Mar17"> 17 </td>
+<td class = "day" id ="Mar18"> 18 </td>
+<td class = "day" id ="Mar19"> 19 </td>
+<td class = "day" id ="Mar20"> 20 </td>
+<td class = "day" id ="Mar21"> 21 </td>
+<td class = "day" id ="Mar22"> 22 </td>
+<td class = "day" id ="Mar23"> 23 </td>
+<td class = "day" id ="Mar24"> 24 </td>
+<td class = "day" id ="Mar25"> 25 </td>
+<td class = "day" id ="Mar26"> 26 </td>
+<td class = "day" id ="Mar27"> 27 </td>
+<td class = "day" id ="Mar28"> 28 </td>
+<td class = "day" id ="Mar29"> 29 </td>
+<td class = "day" id ="Mar30"> 30 </td>
+<td class = "day" id ="Mar31"> 31 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Apr </td>
+<td class = "day" id ="Apr1"> 1 </td>
+<td class = "day" id ="Apr2"> 2 </td>
+<td class = "day" id ="Apr3"> 3 </td>
+<td class = "day" id ="Apr4"> 4 </td>
+<td class = "day" id ="Apr5"> 5 </td>
+<td class = "day" id ="Apr6"> 6 </td>
+<td class = "day" id ="Apr7"> 7 </td>
+<td class = "day" id ="Apr8"> 8 </td>
+<td class = "day" id ="Apr9"> 9 </td>
+<td class = "day" id ="Apr10"> 10 </td>
+<td class = "day" id ="Apr11"> 11 </td>
+<td class = "day" id ="Apr12"> 12 </td>
+<td class = "day" id ="Apr13"> 13 </td>
+<td class = "day" id ="Apr14"> 14 </td>
+<td class = "day" id ="Apr15"> 15 </td>
+<td class = "day" id ="Apr16"> 16 </td>
+<td class = "day" id ="Apr17"> 17 </td>
+<td class = "day" id ="Apr18"> 18 </td>
+<td class = "day" id ="Apr19"> 19 </td>
+<td class = "day" id ="Apr20"> 20 </td>
+<td class = "day" id ="Apr21"> 21 </td>
+<td class = "day" id ="Apr22"> 22 </td>
+<td class = "day" id ="Apr23"> 23 </td>
+<td class = "day" id ="Apr24"> 24 </td>
+<td class = "day" id ="Apr25"> 25 </td>
+<td class = "day" id ="Apr26"> 26 </td>
+<td class = "day" id ="Apr27"> 27 </td>
+<td class = "day" id ="Apr28"> 28 </td>
+<td class = "day" id ="Apr29"> 29 </td>
+<td class = "day" id ="Apr30"> 30 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> May </td>
+<td class = "day" id ="May1"> 1 </td>
+<td class = "day" id ="May2"> 2 </td>
+<td class = "day" id ="May3"> 3 </td>
+<td class = "day" id ="May4"> 4 </td>
+<td class = "day" id ="May5"> 5 </td>
+<td class = "day" id ="May6"> 6 </td>
+<td class = "day" id ="May7"> 7 </td>
+<td class = "day" id ="May8"> 8 </td>
+<td class = "day" id ="May9"> 9 </td>
+<td class = "day" id ="May10"> 10 </td>
+<td class = "day" id ="May11"> 11 </td>
+<td class = "day" id ="May12"> 12 </td>
+<td class = "day" id ="May13"> 13 </td>
+<td class = "day" id ="May14"> 14 </td>
+<td class = "day" id ="May15"> 15 </td>
+<td class = "day" id ="May16"> 16 </td>
+<td class = "day" id ="May17"> 17 </td>
+<td class = "day" id ="May18"> 18 </td>
+<td class = "day" id ="May19"> 19 </td>
+<td class = "day" id ="May20"> 20 </td>
+<td class = "day" id ="May21"> 21 </td>
+<td class = "day" id ="May22"> 22 </td>
+<td class = "day" id ="May23"> 23 </td>
+<td class = "day" id ="May24"> 24 </td>
+<td class = "day" id ="May25"> 25 </td>
+<td class = "day" id ="May26"> 26 </td>
+<td class = "day" id ="May27"> 27 </td>
+<td class = "day" id ="May28"> 28 </td>
+<td class = "day" id ="May29"> 29 </td>
+<td class = "day" id ="May30"> 30 </td>
+<td class = "day" id ="May31"> 31 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Jun </td>
+<td class = "day" id ="Jun1"> 1 </td>
+<td class = "day" id ="Jun2"> 2 </td>
+<td class = "day" id ="Jun3"> 3 </td>
+<td class = "day" id ="Jun4"> 4 </td>
+<td class = "day" id ="Jun5"> 5 </td>
+<td class = "day" id ="Jun6"> 6 </td>
+<td class = "day" id ="Jun7"> 7 </td>
+<td class = "day" id ="Jun8"> 8 </td>
+<td class = "day" id ="Jun9"> 9 </td>
+<td class = "day" id ="Jun10"> 10 </td>
+<td class = "day" id ="Jun11"> 11 </td>
+<td class = "day" id ="Jun12"> 12 </td>
+<td class = "day" id ="Jun13"> 13 </td>
+<td class = "day" id ="Jun14"> 14 </td>
+<td class = "day" id ="Jun15"> 15 </td>
+<td class = "day" id ="Jun16"> 16 </td>
+<td class = "day" id ="Jun17"> 17 </td>
+<td class = "day" id ="Jun18"> 18 </td>
+<td class = "day" id ="Jun19"> 19 </td>
+<td class = "day" id ="Jun20"> 20 </td>
+<td class = "day" id ="Jun21"> 21 </td>
+<td class = "day" id ="Jun22"> 22 </td>
+<td class = "day" id ="Jun23"> 23 </td>
+<td class = "day" id ="Jun24"> 24 </td>
+<td class = "day" id ="Jun25"> 25 </td>
+<td class = "day" id ="Jun26"> 26 </td>
+<td class = "day" id ="Jun27"> 27 </td>
+<td class = "day" id ="Jun28"> 28 </td>
+<td class = "day" id ="Jun29"> 29 </td>
+<td class = "day" id ="Jun30"> 30 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Jul </td>
+<td class = "day" id ="Jul1"> 1 </td>
+<td class = "day" id ="Jul2"> 2 </td>
+<td class = "day" id ="Jul3"> 3 </td>
+<td class = "day" id ="Jul4"> 4 </td>
+<td class = "day" id ="Jul5"> 5 </td>
+<td class = "day" id ="Jul6"> 6 </td>
+<td class = "day" id ="Jul7"> 7 </td>
+<td class = "day" id ="Jul8"> 8 </td>
+<td class = "day" id ="Jul9"> 9 </td>
+<td class = "day" id ="Jul10"> 10 </td>
+<td class = "day" id ="Jul11"> 11 </td>
+<td class = "day" id ="Jul12"> 12 </td>
+<td class = "day" id ="Jul13"> 13 </td>
+<td class = "day" id ="Jul14"> 14 </td>
+<td class = "day" id ="Jul15"> 15 </td>
+<td class = "day" id ="Jul16"> 16 </td>
+<td class = "day" id ="Jul17"> 17 </td>
+<td class = "day" id ="Jul18"> 18 </td>
+<td class = "day" id ="Jul19"> 19 </td>
+<td class = "day" id ="Jul20"> 20 </td>
+<td class = "day" id ="Jul21"> 21 </td>
+<td class = "day" id ="Jul22"> 22 </td>
+<td class = "day" id ="Jul23"> 23 </td>
+<td class = "day" id ="Jul24"> 24 </td>
+<td class = "day" id ="Jul25"> 25 </td>
+<td class = "day" id ="Jul26"> 26 </td>
+<td class = "day" id ="Jul27"> 27 </td>
+<td class = "day" id ="Jul28"> 28 </td>
+<td class = "day" id ="Jul29"> 29 </td>
+<td class = "day" id ="Jul30"> 30 </td>
+<td class = "day" id ="Jul31"> 31 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Aug </td>
+<td class = "day" id ="Aug1"> 1 </td>
+<td class = "day" id ="Aug2"> 2 </td>
+<td class = "day" id ="Aug3"> 3 </td>
+<td class = "day" id ="Aug4"> 4 </td>
+<td class = "day" id ="Aug5"> 5 </td>
+<td class = "day" id ="Aug6"> 6 </td>
+<td class = "day" id ="Aug7"> 7 </td>
+<td class = "day" id ="Aug8"> 8 </td>
+<td class = "day" id ="Aug9"> 9 </td>
+<td class = "day" id ="Aug10"> 10 </td>
+<td class = "day" id ="Aug11"> 11 </td>
+<td class = "day" id ="Aug12"> 12 </td>
+<td class = "day" id ="Aug13"> 13 </td>
+<td class = "day" id ="Aug14"> 14 </td>
+<td class = "day" id ="Aug15"> 15 </td>
+<td class = "day" id ="Aug16"> 16 </td>
+<td class = "day" id ="Aug17"> 17 </td>
+<td class = "day" id ="Aug18"> 18 </td>
+<td class = "day" id ="Aug19"> 19 </td>
+<td class = "day" id ="Aug20"> 20 </td>
+<td class = "day" id ="Aug21"> 21 </td>
+<td class = "day" id ="Aug22"> 22 </td>
+<td class = "day" id ="Aug23"> 23 </td>
+<td class = "day" id ="Aug24"> 24 </td>
+<td class = "day" id ="Aug25"> 25 </td>
+<td class = "day" id ="Aug26"> 26 </td>
+<td class = "day" id ="Aug27"> 27 </td>
+<td class = "day" id ="Aug28"> 28 </td>
+<td class = "day" id ="Aug29"> 29 </td>
+<td class = "day" id ="Aug30"> 30 </td>
+<td class = "day" id ="Aug31"> 31 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Sep </td>
+<td class = "day" id ="Sep1"> 1 </td>
+<td class = "day" id ="Sep2"> 2 </td>
+<td class = "day" id ="Sep3"> 3 </td>
+<td class = "day" id ="Sep4"> 4 </td>
+<td class = "day" id ="Sep5"> 5 </td>
+<td class = "day" id ="Sep6"> 6 </td>
+<td class = "day" id ="Sep7"> 7 </td>
+<td class = "day" id ="Sep8"> 8 </td>
+<td class = "day" id ="Sep9"> 9 </td>
+<td class = "day" id ="Sep10"> 10 </td>
+<td class = "day" id ="Sep11"> 11 </td>
+<td class = "day" id ="Sep12"> 12 </td>
+<td class = "day" id ="Sep13"> 13 </td>
+<td class = "day" id ="Sep14"> 14 </td>
+<td class = "day" id ="Sep15"> 15 </td>
+<td class = "day" id ="Sep16"> 16 </td>
+<td class = "day" id ="Sep17"> 17 </td>
+<td class = "day" id ="Sep18"> 18 </td>
+<td class = "day" id ="Sep19"> 19 </td>
+<td class = "day" id ="Sep20"> 20 </td>
+<td class = "day" id ="Sep21"> 21 </td>
+<td class = "day" id ="Sep22"> 22 </td>
+<td class = "day" id ="Sep23"> 23 </td>
+<td class = "day" id ="Sep24"> 24 </td>
+<td class = "day" id ="Sep25"> 25 </td>
+<td class = "day" id ="Sep26"> 26 </td>
+<td class = "day" id ="Sep27"> 27 </td>
+<td class = "day" id ="Sep28"> 28 </td>
+<td class = "day" id ="Sep29"> 29 </td>
+<td class = "day" id ="Sep30"> 30 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Oct </td>
+<td class = "day" id ="Oct1"> 1 </td>
+<td class = "day" id ="Oct2"> 2 </td>
+<td class = "day" id ="Oct3"> 3 </td>
+<td class = "day" id ="Oct4"> 4 </td>
+<td class = "day" id ="Oct5"> 5 </td>
+<td class = "day" id ="Oct6"> 6 </td>
+<td class = "day" id ="Oct7"> 7 </td>
+<td class = "day" id ="Oct8"> 8 </td>
+<td class = "day" id ="Oct9"> 9 </td>
+<td class = "day" id ="Oct10"> 10 </td>
+<td class = "day" id ="Oct11"> 11 </td>
+<td class = "day" id ="Oct12"> 12 </td>
+<td class = "day" id ="Oct13"> 13 </td>
+<td class = "day" id ="Oct14"> 14 </td>
+<td class = "day" id ="Oct15"> 15 </td>
+<td class = "day" id ="Oct16"> 16 </td>
+<td class = "day" id ="Oct17"> 17 </td>
+<td class = "day" id ="Oct18"> 18 </td>
+<td class = "day" id ="Oct19"> 19 </td>
+<td class = "day" id ="Oct20"> 20 </td>
+<td class = "day" id ="Oct21"> 21 </td>
+<td class = "day" id ="Oct22"> 22 </td>
+<td class = "day" id ="Oct23"> 23 </td>
+<td class = "day" id ="Oct24"> 24 </td>
+<td class = "day" id ="Oct25"> 25 </td>
+<td class = "day" id ="Oct26"> 26 </td>
+<td class = "day" id ="Oct27"> 27 </td>
+<td class = "day" id ="Oct28"> 28 </td>
+<td class = "day" id ="Oct29"> 29 </td>
+<td class = "day" id ="Oct30"> 30 </td>
+<td class = "day" id ="Oct31"> 31 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Nov </td>
+<td class = "day" id ="Nov1"> 1 </td>
+<td class = "day" id ="Nov2"> 2 </td>
+<td class = "day" id ="Nov3"> 3 </td>
+<td class = "day" id ="Nov4"> 4 </td>
+<td class = "day" id ="Nov5"> 5 </td>
+<td class = "day" id ="Nov6"> 6 </td>
+<td class = "day" id ="Nov7"> 7 </td>
+<td class = "day" id ="Nov8"> 8 </td>
+<td class = "day" id ="Nov9"> 9 </td>
+<td class = "day" id ="Nov10"> 10 </td>
+<td class = "day" id ="Nov11"> 11 </td>
+<td class = "day" id ="Nov12"> 12 </td>
+<td class = "day" id ="Nov13"> 13 </td>
+<td class = "day" id ="Nov14"> 14 </td>
+<td class = "day" id ="Nov15"> 15 </td>
+<td class = "day" id ="Nov16"> 16 </td>
+<td class = "day" id ="Nov17"> 17 </td>
+<td class = "day" id ="Nov18"> 18 </td>
+<td class = "day" id ="Nov19"> 19 </td>
+<td class = "day" id ="Nov20"> 20 </td>
+<td class = "day" id ="Nov21"> 21 </td>
+<td class = "day" id ="Nov22"> 22 </td>
+<td class = "day" id ="Nov23"> 23 </td>
+<td class = "day" id ="Nov24"> 24 </td>
+<td class = "day" id ="Nov25"> 25 </td>
+<td class = "day" id ="Nov26"> 26 </td>
+<td class = "day" id ="Nov27"> 27 </td>
+<td class = "day" id ="Nov28"> 28 </td>
+<td class = "day" id ="Nov29"> 29 </td>
+<td class = "day" id ="Nov30"> 30 </td>
+</tr>
+ 
+<tr>
+<td class = "month"> Dec </td>
+<td class = "day" id ="Dec1"> 1 </td>
+<td class = "day" id ="Dec2"> 2 </td>
+<td class = "day" id ="Dec3"> 3 </td>
+<td class = "day" id ="Dec4"> 4 </td>
+<td class = "day" id ="Dec5"> 5 </td>
+<td class = "day" id ="Dec6"> 6 </td>
+<td class = "day" id ="Dec7"> 7 </td>
+<td class = "day" id ="Dec8"> 8 </td>
+<td class = "day" id ="Dec9"> 9 </td>
+<td class = "day" id ="Dec10"> 10 </td>
+<td class = "day" id ="Dec11"> 11 </td>
+<td class = "day" id ="Dec12"> 12 </td>
+<td class = "day" id ="Dec13"> 13 </td>
+<td class = "day" id ="Dec14"> 14 </td>
+<td class = "day" id ="Dec15"> 15 </td>
+<td class = "day" id ="Dec16"> 16 </td>
+<td class = "day" id ="Dec17"> 17 </td>
+<td class = "day" id ="Dec18"> 18 </td>
+<td class = "day" id ="Dec19"> 19 </td>
+<td class = "day" id ="Dec20"> 20 </td>
+<td class = "day" id ="Dec21"> 21 </td>
+<td class = "day" id ="Dec22"> 22 </td>
+<td class = "day" id ="Dec23"> 23 </td>
+<td class = "day" id ="Dec24"> 24 </td>
+<td class = "day" id ="Dec25"> 25 </td>
+<td class = "day" id ="Dec26"> 26 </td>
+<td class = "day" id ="Dec27"> 27 </td>
+<td class = "day" id ="Dec28"> 28 </td>
+<td class = "day" id ="Dec29"> 29 </td>
+<td class = "day" id ="Dec30"> 30 </td>
+<td class = "day" id ="Dec31"> 31 </td>
+</tr>
+<tr>
+<td id="finish">Already done </td>
+</tr>
+ 
+</table>
+<button onclick="myFunction()">Click me</button>
+<button onclick="reset()">Reset</button>
+ <h2 id = "recent">  </h2>
+
+<h2> Probability of a collision </h2> <h2 id = "prob"> 1/365 </h2>
+
+
+
+<script>
+var so_far = [];
+var c = 365;
+
+function myFunction() {
+	c = c - 1;
+	var dates = [31,28,31,30,31,30,31,31,30,31,30,31];
+	var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+	var rand_month = Math.floor((Math.random() * 12));
+	var rand_date = Math.floor((Math.random() * dates[rand_month]) + 1);
+	var rand_month = months[rand_month];
+	console.log(rand_month);
+	console.log(rand_date);
+	var cur = rand_month + rand_date.toString()
+	if (so_far.indexOf(cur) >= 0) {
+		console.log("collision")
+		  	document.getElementById("finish").style.color = "green";
+		  	document.getElementById("recent").innerHTML = "Collision occured" + rand_month + " " + rand_date.toString();
+
+	} else {
+		  	document.getElementById(cur).style.backgroundColor = "#3F51B5";
+		  	document.getElementById("prob").innerHTML = "1/" + c.toString();
+		  	document.getElementById("recent").innerHTML = "Most recent date is " + rand_month + " " + rand_date.toString();
+
+	}
+  	so_far.push(cur);
+  	console.log(so_far)
+
+
+}
+
+function reset() {
+	so_far = [];
+	c = 365;
+	document.getElementById("finish").style.backgroundColor = "#FFA726";
+	document.getElementById("prob").innerHTML = "1/365";
+	document.getElementById("recent").innerHTML = "";
+
+	var x = document.getElementsByClassName("day");
+	var i;
+	for (i = 0; i < x.length; i++) {
+	  x[i].style.backgroundColor = "#FFA726";
+	}
+}
+</script>
+
+</body>
+</html>
