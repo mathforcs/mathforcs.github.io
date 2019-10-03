@@ -22,8 +22,9 @@ In order to solve the above issues, computer scientists over the years came up w
 algorithms. One way to fix the problem of input sizes is making the run time as a function of the input size. Suppose $$ f $$ is 
 the runtime of algorithm 1 and $$ g $$ is a function of algorithm 2, then $$ f(n) $$ would represent the runtime of the algorithm when 
 the input is of size $$ n $$. For example, suppose we give our sorting algorithms a list of size 100, then $$ f(100) $$ and $$ g(100) $$ 
- measures the amount of time taken by the two algorithms for an input instance of size 100. 
- 
+ measures the amount of time taken by the two algorithms for an input instance of size 100. Now that we have found a solution incorporating the input size. The remaining problem is finding a meaninful way to compare the two function $$ f(n) $$ and $ g(n) $$. \\ \\
+ This is done by writing $$ f $$ and $$ g $$ as the number of operations for each algorithm. Although there are many different computational models out there, the one closest to the real world and practicality is the RAM model of computation. In this model, the operations such as addition, subtraction, multiplication, division can be done in one operations. Looking up an element in a list/array can also be done in a single operations. \\ \\
+ Hence, the runtime of an algorithm would simply be the total number of instructions in the RAM model that the algorithm would have to perform. Since our input is of size $$ n $$, the functions $$ f $$ and $$ g $$ are also functions of $$ n $$. 
 
 
 Part 2: How to analyze the runtime of algorithms? 
