@@ -25,10 +25,14 @@ the input is of size $$ n $$. For example, suppose we give our sorting algorithm
  measures the amount of time taken by the two algorithms for an input instance of size 100. Now that we have found a solution incorporating the input size. The remaining problem is finding a meaninful way to compare the two function $$ f(n) $$ and $ g(n) $$. \\ \\
  This is done by writing $$ f $$ and $$ g $$ as the number of operations for each algorithm. Although there are many different computational models out there, the one closest to the real world and practicality is the RAM model of computation. In this model, the operations such as addition, subtraction, multiplication, division can be done in one operations. Looking up an element in a list/array can also be done in a single operations. \\ \\
  Hence, the runtime of an algorithm would simply be the total number of instructions in the RAM model that the algorithm would have to perform. Since our input is of size $$ n $$, the functions $$ f $$ and $$ g $$ are also functions of $$ n $$. 
+ 
+ In the next post, we will learn more about how to analyze the exact runtime of an algorithm as a function of its input size, $$ n $$. 
 
 
 Part 2: How to analyze the runtime of algorithms? 
 
-Part 3: Growth functions
+Part 3: Growth functions 
+
 Part 4: Expressing the runtime of algorithms in terms of big-O etc
+
 Part 5: Bounding the runtime of recurrences
